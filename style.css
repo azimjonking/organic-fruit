@@ -19,3 +19,39 @@
 
 /* home section start */
 /* home section end */
+
+/* menu section start */
+.div{
+  display: flex;
+  justify-content: space-around;
+}
+.hp{
+  font-size: 30px;
+  width: 700px;
+  margin-top: 50px;
+}
+.hp h1{
+  font-size: 60px ;
+}
+.hp p{
+  font-size: 20px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.btn button{
+  border-radius: 50px;
+  background: green;
+  border: none;
+  padding: 10px;
+}
+.img2 img{
+  position: absolute;
+  right: 1%;
+  top: 60%;
+}
+
+/* menu section end */
