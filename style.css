@@ -19,3 +19,34 @@
 
 /* home section start */
 /* home section end */
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin: 20px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-between;
+}
+nav button{
+  width: 160px;
+  height: 40px;
+  background: rgba(9, 166, 109, 1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+footer {
+  margin-left: 200px;
+  background: rgba(252, 254, 253, 1);
+}
+.sup{
+  display: flex;
+  gap: 100px;
+  margin-left: 400px;
+  margin-top: -170px;
+}
