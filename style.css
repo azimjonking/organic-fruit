@@ -98,6 +98,7 @@
 .card-2 p {
   margin-left: 150px;
 }
+
 .service-img {
   position: relative;
 }
@@ -108,8 +109,65 @@
   border-radius: 50%;
   position: absolute;
   margin-left: 90px;
-  
+
 }
 
 
 /* service end */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  /* font-family: "Rosario", sans-serif; */
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100dvh;
+  background: #ffffff;
+}
+
+/* header start */
+/* header end */
+
+/* home section start */
+/* home section end */
+
+/* menu section start */
+.div{
+  display: flex;
+  justify-content: space-around;
+}
+.hp{
+  font-size: 30px;
+  width: 700px;
+  margin-top: 50px;
+}
+.hp h1{
+  font-size: 60px ;
+}
+.hp p{
+  font-size: 20px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.btn button{
+  border-radius: 50px;
+  background: green;
+  border: none;
+  padding: 10px;
+}
+.img2 img{
+  position: absolute;
+  right: 1%;
+  top: 60%;
+}
+
+/* menu section end */
