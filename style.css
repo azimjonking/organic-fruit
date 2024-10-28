@@ -10,7 +10,7 @@
 
 .wrapper {
   width: 100%;
-  min-height: 100dvh;
+  height: 100dvh;
   background: #ffffff;
 }
 
@@ -19,3 +19,97 @@
 
 /* home section start */
 /* home section end */
+
+/*  service start */
+.service {
+  display: flex;
+}
+
+
+
+.fresh h1 {
+  font-family: "Rosario", sans-serif;
+  font-size: 70px;
+  margin-left: 50px;
+}
+
+
+.fresh p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 50px;
+  line-height: 30px;
+  margin-top: 50px;
+  color: #555555;
+}
+
+.card-1 img {
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.card-1 h1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.card-1 p {
+  margin-left: 150px;
+
+}
+
+.card-2 img {
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.card-2 h1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+.card-3 p {
+  margin-left: 150px;
+}
+
+
+.card-3 img {
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.card-3 h1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+.card-2 p {
+  margin-left: 150px;
+}
+.service-img {
+  position: relative;
+}
+
+.service-img .box {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 90px;
+  
+}
+
+
+/* service end */
